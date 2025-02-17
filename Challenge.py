@@ -21,7 +21,7 @@ create_users("users.csv")
 
 
 
-Explanation of Changes:
-Error Handling: Added a log_error function to log errors to a file (error_log.txt) instead of just printing them.
-Skipping Rows with Missing Fields: Added a check to skip rows where the email field is missing.
-Modular Functions: Separated the error logging into its own function (log_error) to improve readability and maintainability.
+##Explanation of Changes:
+##Error Handling: Added a log_error function to log errors to a file (error_log.txt) instead of just printing them.
+##Skipping Rows with Missing Fields: Added a check to skip rows where the email field is missing.
+##Modular Functions: Separated the error logging into its own function (log_error) to improve readability and maintainability.
